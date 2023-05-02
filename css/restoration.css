@@ -1,0 +1,98 @@
+body {
+    background-color: #5C85FE;
+    color: #FEF0F3;
+}
+
+@font-face {
+    font-family: NeueBit;
+    src: url(PPNeueBit-Bold.otf);
+}
+
+@font-face {
+    font-family: ABC-Social;
+    src: url(ABCSocial-Thin-Trial.woff);
+}
+
+div {
+    font-family: ABC-Social;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color:#FEF0F3
+}
+  
+a.hover, a.active {
+    color:rgb(255, 197, 209);
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+    overflow: hidden;
+}
+
+.horizontal-divider {
+    border: .5px solid #FEF0F3;
+    border-radius: 5%;
+    position: relative;
+}
+
+#vertical-divider {
+    border-left: 1px solid #FEF0F3;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+}
+
+#homeButton{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    width: 10%
+}
+
+.section {
+    position: relative;
+    z-index: 200;
+    font-size: 5vw;
+    line-height: 1em;
+    margin: 10px 5px 10px 15px;
+}
+
+.section-header {
+    position: relative;
+    font-size: 3vw;
+    line-height: 1em;
+    margin: 10px 5px 10px 15px;
+}
+
+
+.title {
+    font-family: NeueBit;
+    text-align: center;
+    font-size: 9vw;
+    line-height: .7em;
+    align-self: center;
+    margin-top: 30%;
+}
+
+.star {
+    font-family: Arial;
+    position: absolute;
+    float: right;
+    right: 40px;
+    font-size: 3.5vw;
+    margin-top: 6px;
+    margin-right: -8px;
+}
