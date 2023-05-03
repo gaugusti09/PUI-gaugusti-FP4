@@ -13,6 +13,7 @@ body {
     src: url(ABCSocial-Thin-Trial.woff);
 }
 
+
 div {
     font-family: ABC-Social;
 }
@@ -86,6 +87,15 @@ a.hover, a.active {
     margin-top: 30%;
 }
 
+.body-text {
+    font-family: NeueBit;
+    font-size: 2vw;
+    color: #5C85FE; 
+    letter-spacing: .001em;
+    margin-left: 4%;
+    margin-right: 10%;
+}
+
 .star {
     font-family: Arial;
     position: absolute;
@@ -97,19 +107,29 @@ a.hover, a.active {
 }
 
 .about-col {
-    float: left;
-    width: 33.33%;
+    flex: 33.33%;
     padding: 5px;
 }
   
 
 .about-row {
-    content: "";
-    clear: both;
-    display: table;
+    display: flex;
+}
+
+#profilePic {
+    height: 200px;
+    margin-left: 10%;
 }
 
 #miniQuilt {
-    width: 150px;
-    
+    width: 200px;
+    margin-right: 30%;
+}
+
+#highlight {
+    color: #E185AF;
+    text-decoration: underline;
+}
+#contact-highlight {
+    color: #8FAAFB;
 }
