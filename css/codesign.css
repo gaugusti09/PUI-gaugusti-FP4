@@ -77,6 +77,13 @@ a.hover, a.active {
     margin: 10px 5px 10px 15px;
 }
 
+#mendedSweater{
+    max-height: 200px;
+    height: auto;
+    margin-left: 30%;
+}
+
+
 .title {
     font-family: NeueBit;
     text-align: center;
@@ -96,21 +103,16 @@ a.hover, a.active {
     margin-right: -8px;
 }
 
-
 .codesign-body-text {
     font-family: NeueBit;
-    font-size: 2.7vw;
+    font-size: 2vw;
     color: #FEF0F3;
     letter-spacing: .001em;
     margin-left: 4%;
     margin-right: 10%;
 }
 
-#highlight {
+.highlight {
     color: #ffd7e7;
     text-decoration: underline;
-}
-
-#add-highlight {
-    color: #8FAAFB;
 }

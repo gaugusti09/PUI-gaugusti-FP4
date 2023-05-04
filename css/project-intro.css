@@ -81,7 +81,7 @@ a.hover, a.active {
 .title {
     font-family: NeueBit;
     text-align: center;
-    font-size: 9vw;
+    font-size: 5vw;
     line-height: .7em;
     align-self: center;
     margin-top: 30%;
@@ -100,7 +100,7 @@ a.hover, a.active {
 .intro-text {
     font-family: NeueBit;
     text-align: center;
-    font-size: 2.7vw;
+    font-size: 2vw;
     color: #FEF0F3;
     letter-spacing: .001em;
     margin-left: 4%;
