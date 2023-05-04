@@ -107,11 +107,7 @@ a.hover, a.active {
     margin-right: 10%;
 }
 
-#highlight {
+.highlight {
     color: #ffd7e7;
     text-decoration: underline;
-}
-
-#add-highlight {
-    color: #8FAAFB;
 }
