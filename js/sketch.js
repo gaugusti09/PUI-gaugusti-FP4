@@ -2,7 +2,7 @@ var cnv; // variable for the canvas size
 
 // The following functions all set up the quiltBlock canvas and render it!
 function positionCanvas() {
-    var x = (windowWidth - width - 10) / 1.1;
+    var x = (windowWidth - width-80) / 1.1;
     var y = (windowHeight - height - 50) / 1.1;
     cnv.position(x, y);
 }
@@ -10,13 +10,12 @@ function positionCanvas() {
 function setup() {
   cnv=createCanvas(350, 350);
   positionCanvas();
-  background('white');
+  background('FFE3E9');
 }
 
 function draw() {
   stroke('#5C85FE');
   baseQuilt();
-  noLoop();
 }
 
 // Resize the canvas to match the current window size
@@ -27,6 +26,7 @@ function windowResized() {
 
 function baseQuilt(){
   simpleBlocks(); //Draw a base quilt to begin with
+  noLoop();
 }
 
 function makeQuilt() {

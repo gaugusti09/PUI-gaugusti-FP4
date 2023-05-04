@@ -58,15 +58,15 @@ a.hover, a.active {
 
 #homeButton{
     position: absolute;
-    top: 90%;
-    left: 90%;
-    width: 10%
+    top: 88%;
+    left: 88%;
+    width: 9%;
 }
 
 .section {
     position: relative;
     z-index: 200;
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 1em;
     margin: 10px 5px 10px 15px;
 }
@@ -108,7 +108,7 @@ a.hover, a.active {
 
 .about-col {
     flex: 33.33%;
-    padding: 20px;
+    padding: 15px;
 }
   
 
@@ -117,8 +117,7 @@ a.hover, a.active {
 }
 
 #profilePic {
-    width: 100%;
-    max-height: 214px;
+    max-height: 170px;
     height: auto;
     margin-left: 10%;
 }
