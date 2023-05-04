@@ -39,8 +39,9 @@ a.hover, a.active {
 
 .right {
     right: 0;
-    overflow: hidden;
+    overflow: scroll;
 }
+
 
 .horizontal-divider {
     border: .5px solid #FEF0F3;

@@ -39,7 +39,7 @@ a.hover, a.active {
 
 .right {
     right: 0;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .horizontal-divider {

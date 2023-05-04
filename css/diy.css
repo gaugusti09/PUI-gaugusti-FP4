@@ -39,7 +39,7 @@ a.hover, a.active {
 
 .right {
     right: 0;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .horizontal-divider {
@@ -99,18 +99,14 @@ a.hover, a.active {
 
 .diy-body-text {
     font-family: NeueBit;
-    font-size: 2.7vw;
+    font-size: 1.9vw;
     color: #FEF0F3;
     letter-spacing: .001em;
     margin-left: 4%;
     margin-right: 10%;
 }
 
-#highlight {
-    color: #ffd7e7;
+li {
+    color: #ffc5dc;
     text-decoration: underline;
-}
-
-#add-highlight {
-    color: #8FAAFB;
 }
